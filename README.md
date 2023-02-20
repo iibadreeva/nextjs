@@ -43,3 +43,9 @@
 - - Страницы курсов;
 - - Поиск;
 - - Страницы (404, 500);
+
+## Запуск в Docker
+- docker build -t next-project .
+- docker images
+- docker-compose up -d
+- Открыть  [http://localhost:3000](http://localhost:3000) 
