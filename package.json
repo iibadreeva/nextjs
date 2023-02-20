@@ -10,7 +10,7 @@
     "start": "next start",
     "startprod": "NODE_ENV=production npm start",
     "lint": "next lint",
-    "stylelint": "stylelint \"**/*.css\" --fix"
+    "stylelint": "stylelint --fix ./**/*.css"
   },
   "browserslist": [
     "> 1%",
