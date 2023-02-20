@@ -1,0 +1,11 @@
+import { DetailedHTMLProps, ReactNode, TextareaHTMLAttributes } from 'react';
+import { FieldError } from 'react-hook-form';
+
+export interface TextareaProps
+  extends DetailedHTMLProps<
+    TextareaHTMLAttributes<HTMLTextAreaElement>,
+    HTMLTextAreaElement
+  > {
+  children?: ReactNode;
+  error?: FieldError;
+}

@@ -1,0 +1,37 @@
+.filled svg {
+	fill: var(--primary);
+}
+
+.star {
+	margin-right: 5px;
+
+	outline: none;
+}
+
+.editable {
+	cursor: pointer;
+}
+
+.editable:focus {
+	outline: 1px solid black;
+}
+
+.editable:focus:not(:focus-visible) {
+	outline: none;
+}
+
+.ratingWrapper {
+	position: relative;
+}
+
+.error {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+
+	color: var(--red);
+}
+
+.errorWrap svg {
+	stroke: var(--red);
+}

@@ -1,0 +1,55 @@
+:root {
+	--black: #3B434E;
+	--gray: #A4A4A4;
+	--gray-light: #EBEBEB;
+	--gray-dark: #787D85;
+	--white: white;
+	--primary: #7351F5;
+	--primary-hover: #592EFD;
+	--red-light: rgb(222 0 0 / 20%);
+	--red: #DE0000;
+	--green: #127A4F;
+	--green-light: #C8F8E4;
+	--font-family:
+		"Noto Sans",
+		sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	/* overflow-x: hidden; */
+
+	max-width: 100vw;
+
+	color: var(--black);
+	background: #F5F6F8;
+
+	font-family: var(--font-family);
+}
+
+a {
+	text-decoration: none;
+
+	color: inherit;
+}
+
+.visualyHidden {
+	position: absolute;
+
+	overflow: hidden;
+
+	width: 0;
+	height: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		color-scheme: dark;
+	}
+}
